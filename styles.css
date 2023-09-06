@@ -215,17 +215,16 @@ body::-webkit-scrollbar {
   flex-wrap: wrap;
 }
 .question-container {
-  width: 450px;
+  max-width: 400px;
   margin-bottom: 5rem;
   font-size: 0.9rem;
 }
 
 .question {
-  width: 100%;
   margin-bottom: 1rem;
 }
 .answer {
-  width: 400px;
+  padding-right: 2rem;
 }
 
 .divider {
@@ -341,7 +340,7 @@ Animations
     margin-bottom: 2rem;
   }
   #copyright {
-    width: 50%;
+    width: 70%;
   }
 }
 
